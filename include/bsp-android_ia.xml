@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- from Github repositories -->
-  <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
-  <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="master"/>
-  <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="master"/>
-  <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="github" revision="master"/>
-  <project name="DPTF" path="vendor/intel/external/android_ia/dptf" groups="pdk" remote="github" revision="master"/>
-  <project name="efivar" path="external/efivar" groups="pdk" remote="github" revision="master"/>
-  <project name="platform_external_efitools" path="external/efitools" remote="github" revision="master"/>
-  <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
-  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
-  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
-  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="master" />
-  <project name="external-vulkan_hal" path="vendor/intel/external/android_ia/vulkan" remote="github" revision="master" />
-  <project name="minigbm" path="external/minigbm" remote="graphics" revision="master" />
-  <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
-  <project name="powertop" path="external/powertop" remote="github" revision="master"/>
-  <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
-  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
-  <project name="external-sbsign" path="external/sbsigntool" groups="pdk" remote="github" revision="master" />
-  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
-  <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
-  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
-  <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="master" />
-  <project name="hardware_intel_audio" path="vendor/intel/external/android_ia/audio_pfw/hal" remote="github" revision="master" />
-  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/android_ia/audio_pfw/utilities" remote="github" revision="master" />
-  <project name="userfastboot" path="bootable/userfastboot" remote="github" revision="master" />
-  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" remote="github" revision="master" />
-  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" remote="github" revision="master" />
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
-  <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="master" />
-  <project name="vaapi" path="vendor/intel/external/android_ia/vaapi" remote="github" revision="master" />
+  <project name="external_pystache" path="external/pystache" remote="github" revision="n_master" />
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="7bdbf2bffe0a3d145942df53892460552be16639"/>
+  <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="n_master"/>
+  <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="github" revision="e1a2a1cd2704d05d983970856a6a1f926a073fb4"/>
+  <project name="DPTF" path="vendor/intel/external/android_ia/dptf" groups="pdk" remote="github" revision="n_master"/>
+  <project name="efivar" path="external/efivar" groups="pdk" remote="github" revision="n_master"/>
+  <project name="platform_external_efitools" path="external/efitools" remote="github" revision="n_master"/>
+  <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="n_master"/>
+  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="n_master"/>
+  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="7cf93b10cfb11d490bd08d56957a32567501e8e8"/>
+  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="cd1169dba3613626da7999d7f072081cf700b14b" />
+  <project name="external-vulkan_hal" path="vendor/intel/external/android_ia/vulkan" remote="github" revision="fa6e945fda3e2b7dab16d9401fba658c6cdbc683" />
+  <project name="minigbm" path="external/minigbm" remote="graphics" revision="7fe733cfa63242a44690ec534862ae85678a0b61" />
+  <project name="libncurses" path="external/libncurses" remote="github" revision="n_master"/>
+  <project name="powertop" path="external/powertop" remote="github" revision="n_master"/>
+  <project name="pciutils" path="external/pciutils" remote="github" revision="n_master"/>
+  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="n_master" />
+  <project name="external-sbsign" path="external/sbsigntool" groups="pdk" remote="github" revision="n_master" />
+  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="n_master" />
+  <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="n_master" />
+  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="n_master" />
+  <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="n_master" />
+  <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="n_master" />
+  <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="n_master" />
+  <project name="hardware_intel_audio" path="vendor/intel/external/android_ia/audio_pfw/hal" remote="github" revision="n_master" />
+  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/android_ia/audio_pfw/utilities" remote="github" revision="n_master" />
+  <project name="userfastboot" path="bootable/userfastboot" remote="github" revision="n_master" />
+  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" remote="github" revision="n_master" />
+  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" remote="github" revision="377845853865a654b87e36d32f80fcdfce261cd2" />
+  <project name="device-intel-common" path="device/intel/common" remote="github" revision="n_master" />
+  <project name="device-intel-build" path="device/intel/build" remote="github" revision="n_master" />
+  <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="n_master" />
+  <project name="vaapi" path="vendor/intel/external/android_ia/vaapi" remote="github" revision="n_master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
-  <project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
-  <project name="system-bt" path="system/bt" remote="github" revision="master" />
-  <project name="system-core" path="system/core" groups="pdk" remote="github" revision="master" />
-  <project name="frameworks-native" path="frameworks/native" remote="github" revision="master" />
-  <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
-  <project name="bootable-recovery" path="bootable/recovery" remote="github" revision="master" />
-  <project name="bionic" path="bionic" remote="github" revision="master" />
-  <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
-  <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/>
+  <project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="n_master" />
+  <project name="system-bt" path="system/bt" remote="github" revision="n_master" />
+  <project name="system-core" path="system/core" groups="pdk" remote="github" revision="n_master" />
+  <project name="frameworks-native" path="frameworks/native" remote="github" revision="n_master" />
+  <project name="frameworks-base" path="frameworks/base" remote="github" revision="n_master" />
+  <project name="bootable-recovery" path="bootable/recovery" remote="github" revision="n_master" />
+  <project name="bionic" path="bionic" remote="github" revision="n_master" />
+  <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="n_master"/>
+  <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="n_master"/>
 </manifest>
