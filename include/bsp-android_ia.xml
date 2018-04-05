@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- from Github repositories -->
-  <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
-  <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="graphics" revision="master"/>
-  <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="github" revision="master"/>
-  <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="github" revision="master"/>
-  <!--project name="DPTF" path="vendor/intel/external/android_ia/dptf" groups="pdk" remote="github" revision="master"/-->
-  <project name="efivar" path="external/efivar" groups="pdk" remote="github" revision="master"/>
-  <project name="platform_external_efitools" path="external/efitools" remote="github" revision="omr1_master"/>
-  <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="github" revision="master"/>
-  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
-  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="github" revision="master"/>
-  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="github" revision="master" />
-  <project name="minigbm" path="external/minigbm" remote="graphics" revision="master" />
-  <project name="libncurses" path="external/libncurses" remote="github" revision="master"/>
-  <!--project name="powertop" path="external/powertop" remote="github" revision="master"/-->
-  <project name="pciutils" path="external/pciutils" remote="github" revision="master"/>
-  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="omr1_master" />
-  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
-  <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
-  <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="omr1_master" />
-  <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="omr1_master" />
-  <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
-  <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="master" />
-  <project name="hardware_intel_audio" path="vendor/intel/external/android_ia/audio_pfw/hal" remote="github" revision="master" />
-  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/android_ia/audio_pfw/utilities" remote="github" revision="master" />
-  <project name="userfastboot" path="bootable/userfastboot" remote="github" revision="master" />
-  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" remote="github" revision="master" />
-  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" remote="github" revision="master" />
-  <project name="device-intel-common" path="device/intel/common" remote="github" revision="omr1_master" />
-  <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="omr1_master" />
-  <project name="vaapi" path="vendor/intel/external/android_ia/vaapi" remote="github" revision="master" />
-  <project path="hardware/interfaces" name="hardware-interfaces" remote="github" revision="omr1_master" />
+  <project name="external_pystache" path="external/pystache" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/android_ia/hwcomposer" groups="hwcomposer" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="lighthal" path="vendor/intel/external/android_ia/lights" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="MemTrack" path="vendor/intel/external/android_ia/memtrack" groups="pdk" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <!--project name="DPTF" path="vendor/intel/external/android_ia/dptf" groups="pdk" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/-->
+  <project name="efivar" path="external/efivar" groups="pdk" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="platform_external_efitools" path="external/efitools" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="powerhal" path="vendor/intel/external/android_ia/powerhal" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="external-libdrm" path="vendor/intel/external/android_ia/libdrm" groups="pdk" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="external-mesa" path="vendor/intel/external/android_ia/mesa" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="minigbm" path="external/minigbm" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="libncurses" path="external/libncurses" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <!--project name="powertop" path="external/powertop" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/-->
+  <project name="pciutils" path="external/pciutils" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="device-androidia-mixins" path="device/intel/mixins" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="device-androidia" path="device/intel/android_ia" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="device-androidia-kernel" path="kernel/android_ia" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="hardware_intel_audio" path="vendor/intel/external/android_ia/audio_pfw/hal" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/android_ia/audio_pfw/utilities" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="userfastboot" path="bootable/userfastboot" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="device-intel-common" path="device/intel/common" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="device-intel-build" path="device/intel/build" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="libva" path="vendor/intel/external/android_ia/libva" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="vaapi" path="vendor/intel/external/android_ia/vaapi" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project path="hardware/interfaces" name="hardware-interfaces" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
     <!-- From public kernel.org -->
-  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
+  <project name="linux-firmware" path="vendor/linux/firmware" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
 
   <!-- ikgt projects -->
-  <project name="ikgt-core" path="vendor/intel/fw/evmm/ikgt" remote="intel" revision="trusty"/>
+  <project name="ikgt-core" path="vendor/intel/fw/evmm/ikgt" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
 
   <!-- trusty core projects -->
-  <project name="trusty_external_headers" path="trusty/external/headers" remote="trusty-ia" revision="master"/>
-  <project name="trusty_external_lk" path="trusty/external/lk"  remote="trusty-ia" revision="master">
+  <project name="trusty_external_headers" path="trusty/external/headers" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="trusty_external_lk" path="trusty/external/lk"  remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04">
     <copyfile src="makefile" dest="trusty/makefile"/>
   </project>
-  <project name="trusty_lk_trusty" path="trusty/lk/trusty" remote="trusty-ia" revision="master"/>
-  <project name="trusty_lib" path="trusty/lib" remote="trusty-ia" revision="master" sync-c="true"/>
+  <project name="trusty_lk_trusty" path="trusty/lk/trusty" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="trusty_lib" path="trusty/lib" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" sync-c="true"/>
 
   <!-- trusty app projects -->
-  <project name="trusty_app_gatekeeper" path="trusty/app/gatekeeper" remote="trusty-ia" revision="master"/>
-  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="trusty-ia" revision="master"/>
-  <project name="trusty_app_sample" path="trusty/app/sample" remote="trusty-ia" revision="master"/>
-  <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_gatekeeper" path="trusty/app/gatekeeper" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="trusty_app_sample" path="trusty/app/sample" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="trusty_app_storage" path="trusty/app/storage" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
 
   <!-- trusty vendor projects -->
-  <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="master">
+  <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04">
     <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk"/>
   </project>
 
   <!-- trusty sand projects -->
-  <project name="trusty_app_sand" path="trusty/app/sand" remote="trusty-ia" revision="master"/>
-  <project name="trusty_device_x86_sand" path="trusty/device/x86/sand" remote="trusty-ia" revision="master"/>
-  <project name="trusty_platform_sand" path="trusty/platform/sand" remote="trusty-ia" revision="master"/>
-  <project name="trusty_target_sand" path="trusty/target/sand" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_sand" path="trusty/app/sand" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="trusty_device_x86_sand" path="trusty/device/x86/sand" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="trusty_platform_sand" path="trusty/platform/sand" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="trusty_target_sand" path="trusty/target/sand" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
 
   <!-- trusty toolchains projects -->
-  <project name="trusty_toolchain" path="vendor/intel/external/prebuilts/elf" remote="trusty-ia" revision="master"/>
+  <project name="trusty_toolchain" path="vendor/intel/external/prebuilts/elf" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
-  <project path="external/libopus" name="external-libopus" remote="github" revision="omr1_master" />
-  <project name="frameworks-native" path="frameworks/native" remote="github" revision="omr1_master" />
+  <project path="external/libopus" name="external-libopus" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="frameworks-native" path="frameworks/native" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
   <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="refs/tags/android-7.1.1_r6" />
-  <project name="system-core" path="system/core" groups="pdk" remote="github" revision="omr1_master" />
-  <project name="bootable-recovery" path="bootable/recovery" remote="github" revision="omr1_master" />
-  <project path="system/sepolicy" name="system-sepolicy" remote="github" revision="omr1_master" />
-  <project name="frameworks-base" path="frameworks/base" remote="github" revision="omr1_master" />
-  <project name="system-bt" path="system/bt" remote="github" revision="omr1_master" />
-  <!--project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
-  <project name="frameworks-base" path="frameworks/base" remote="github" revision="master" />
-  <project name="bionic" path="bionic" remote="github" revision="master" />
-  <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
-  <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/-->
+  <project name="system-core" path="system/core" groups="pdk" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="bootable-recovery" path="bootable/recovery" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project path="system/sepolicy" name="system-sepolicy" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="frameworks-base" path="frameworks/base" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="system-bt" path="system/bt" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <!--project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="frameworks-base" path="frameworks/base" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="bionic" path="bionic" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04" />
+  <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/>
+  <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="strassek-snapshots" revision="refs/heads/omr1-2018-04-04"/-->
 
 </manifest>
