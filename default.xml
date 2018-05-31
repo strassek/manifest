@@ -4,22 +4,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-8.1.0_r7"
-           remote="aosp"
-           sync-j="4" />
+           remote="aosp" />
 
-  <remote  name="github"
-           fetch="https://github.com/projectceladon/" />
-
-  <remote name="kernelorg" fetch="https://git.kernel.org/" />
-
-  <remote  name="graphics"
-           fetch="https://github.com/01org/" />
-
-  <remote  name="intel"
-           fetch="https://github.com/intel" />
-
-  <remote  name="trusty-ia"
-           fetch="https://github.com/trusty-ia" />
+  <remote name="strassek-snapshots"
+          fetch="https://github.com/strassek-snapshots" />
 
   <include name="include/aosp_vanilla.xml" />
   <include name="include/remove-android_ia.xml" />
