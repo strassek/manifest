@@ -30,14 +30,14 @@
      <copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
   </project>
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
-  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="master" />
+  <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="stable" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" />
   <!--project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" remote="github" revision="master" /-->
   <project path="hardware/intel/bootctrl" name="hardware-intel-bootctrl" remote="github" revision="master" >
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
   </project>
-  <project name="capstone" path="vendor/intel/external/capstone" remote="aquynh" revision="master"/>
-  <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="master"/>
+  <project name="vendor-intel-external-capstone" path="vendor/intel/external/capstone" remote="github" revision="stable" />
+  <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="stable"/>
 
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="master" />
@@ -60,7 +60,12 @@
   <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="master"/>
 
   <!-- Media vendor projects -->
-  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="master" />
+  <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="stable" />
+  <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="stable" />
+  <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="stable" />
+  <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="stable" />
+  <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="stable" />
+  <project name="mediasdk" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="stable" />
 
   <!-- trusty vendor projects -->
   <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="master">
